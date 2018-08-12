@@ -107,7 +107,7 @@ const CardPage = () => {
 
       <Row>
         {['', 'top', 'left', 'right'].map(color => (
-          <Col md={6} sm={6} xs={12} className="mb-3">
+          <Col md={4} sm={6} xs={12} className="mb-3">
             <Card
               inverse
               className={`border-0 bg-gradient-theme${
